@@ -1,6 +1,6 @@
 {
-  "name": "nextjs-starterkit",
-  "version": "1.2.1",
+  "name": "meerkoningdanwilly.nl",
+  "version": "1.0.0",
   "scripts": {
     "build": "next build",
     "build-stats": "cross-env ANALYZE=true npm run build",
@@ -16,13 +16,15 @@
     "test": "jest --watch"
   },
   "dependencies": {
-    "@headlessui/react": "^1.6.4",
+    "@headlessui/react": "^1.6.5",
     "@heroicons/react": "^1.0.6",
     "next": "^12.1.6",
     "next-seo": "^5.4.0",
+    "node-cache": "^5.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-intl": "^6.0.4"
+    "react-intl": "^6.0.4",
+    "spotify-web-api-node": "^5.0.2"
   },
   "devDependencies": {
     "@formatjs/cli": "^5.0.2",
@@ -33,11 +35,11 @@
     "@tailwindcss/typography": "^0.5.2",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
-    "@types/jest": "^28.1.2",
+    "@types/jest": "^28.1.3",
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.14",
-    "@typescript-eslint/eslint-plugin": "^5.28.0",
-    "@typescript-eslint/parser": "^5.28.0",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
     "autoprefixer": "^10.4.7",
     "cross-env": "^7.0.3",
     "cssnano": "^5.1.12",
@@ -50,9 +52,9 @@
     "eslint-plugin-jest": "^26.5.3",
     "eslint-plugin-jest-dom": "^4.0.2",
     "eslint-plugin-jest-formatting": "^3.1.0",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-prettier": "^4.1.0",
+    "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-tailwindcss": "^3.5.2",
@@ -61,14 +63,14 @@
     "husky": "^8.0.1",
     "jest": "^28.1.1",
     "jest-environment-jsdom": "^28.1.1",
-    "lint-staged": "^13.0.2",
+    "lint-staged": "^13.0.3",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
     "stylelint": "^14.9.1",
     "stylelint-config-standard": "^26.0.0",
-    "tailwindcss": "^3.1.3",
+    "tailwindcss": "^3.1.4",
     "typescript": "^4.7.4"
   }
 }

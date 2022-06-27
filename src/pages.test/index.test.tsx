@@ -8,7 +8,21 @@ import { render, screen } from './page-test-utils';
 describe('Index page', () => {
   describe('Render method', () => {
     it('should have h1 tag', () => {
-      render(<Index />);
+      render(
+        <Index
+          playlist={{
+            tracks: {
+              items: [
+                {
+                  track: {
+                    name: 'Track 1',
+                  },
+                },
+              ],
+            },
+          }}
+        />
+      );
 
       const heading = screen.getByRole('heading', {
         name: /starterkit code/,

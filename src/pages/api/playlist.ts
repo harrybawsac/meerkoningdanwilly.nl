@@ -19,7 +19,7 @@ const getNewToken = async () => {
 };
 
 const handler = async (req: NextApiRequest, res: NextApiResponse<{}>) => {
-  console.log(req.url);
+  console.log(req.query);
 
   const token = cache.get('token');
 
